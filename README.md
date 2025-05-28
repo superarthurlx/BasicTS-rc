@@ -11,7 +11,7 @@
 
 </div>
 
----
+---a
 
 <div align="center">
 
@@ -37,7 +37,7 @@
 📜 [**Baselines**](./baselines/)
 
 </div>
-$\texbbf{BasicTS-rc: Release Candidate for BasicTS.}$
+$\texbbf{BasicTS-rc}: Release Candidate for BasicTS.
 $\text{BasicTS}^{+}$ (**Basic** **T**ime **S**eries) is a benchmark library and toolkit designed for time series forecasting. It now supports a wide range of tasks and datasets, including spatial-temporal forecasting and long-term time series forecasting. It covers various types of algorithms such as statistical models, machine learning models, and deep learning models, making it an ideal tool for developing and evaluating time series forecasting models. You can find detailed tutorials in [Getting Started](./tutorial/getting_started.md).
 
 🎉 **Update (May 2025):** BasicTS now supports training universal forecasting models—such as **TimeMoE** and **ChronosBolt**—with the [BLAST](https://arxiv.org/abs/2505.17871) corpus. BLAST enables **faster convergence**, **notable reductions in computational cost**, and superior performance even with limited resources. See [here](./tutorial/training_with_BLAST.md).  
