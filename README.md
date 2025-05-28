@@ -37,7 +37,8 @@
 📜 [**Baselines**](./baselines/)
 
 </div>
-> **BasicTS-rc**: Release Candidate for $\text{BasicTS}^{+}$.
+**BasicTS-rc** is the release candidate version of **$\text{BasicTS}^{+}$** (*Basic Time Series*), a comprehensive benchmark library and toolkit for time series forecasting.
+
 
 $\text{BasicTS}^{+}$ (**Basic** **T**ime **S**eries) is a benchmark library and toolkit designed for time series forecasting. It now supports a wide range of tasks and datasets, including spatial-temporal forecasting and long-term time series forecasting. It covers various types of algorithms such as statistical models, machine learning models, and deep learning models, making it an ideal tool for developing and evaluating time series forecasting models. You can find detailed tutorials in [Getting Started](./tutorial/getting_started.md).
 
