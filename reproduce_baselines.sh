@@ -34,7 +34,7 @@ for model in $models; do
 			done
 		done
 	done
-	find checkpoints/ -type f -name "\*.pt" | xargs rm
+	find checkpoints/ -type f -name "*.pt" | xargs rm -rf
 done
 
 
