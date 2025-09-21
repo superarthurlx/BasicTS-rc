@@ -903,8 +903,8 @@ class BaseEpochRunner(metaclass=ABCMeta):
         ckpt_path = self.get_ckpt_path(epoch)
         save_ckpt(ckpt_dict, ckpt_path, self.logger)
 
-        # clear ckpt every 10 epoch or in the end
-        if epoch % 10 == 0 or epoch == self.num_epochs:
+        # clear ckpt every 2 epoch or in the end
+        if epoch % 2 == 0 or epoch == self.num_epochs:
             clear_ckpt(self.ckpt_save_dir)
 
     @master_only
