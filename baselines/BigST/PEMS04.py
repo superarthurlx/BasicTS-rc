@@ -18,7 +18,7 @@ import pdb
 
 ############################## Hot Parameters ##############################
 # Dataset & Metrics configuration
-DATA_NAME = 'PEMS08'  # Dataset name
+DATA_NAME = 'PEMS04'  # Dataset name
 regular_settings = get_regular_settings(DATA_NAME)
 INPUT_LEN = regular_settings['INPUT_LEN']  # Length of input sequence # 2016 if use_long
 OUTPUT_LEN = regular_settings['OUTPUT_LEN']  # Length of output sequence
@@ -34,7 +34,7 @@ adj_mx, _ = load_adj("datasets/" + DATA_NAME +
                      "/adj_mx.pkl", "doubletransition")
 MODEL_PARAM = {
     "bigst_args":{
-                "num_nodes": 170,
+                "num_nodes": 307,
                 "seq_num": 12, 
                 "in_dim": 3,
                 "out_dim": OUTPUT_LEN, #  源代码固定成12了 
